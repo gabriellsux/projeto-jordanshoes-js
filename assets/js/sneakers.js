@@ -1,0 +1,1 @@
+const CARDS = document.querySelector('.main-cards');
