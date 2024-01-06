@@ -2,6 +2,7 @@
 
 ## 📃 Sobre
 Aplicação: <br>
+https://projeto-jordanshoes-js.vercel.app/
 
 
 **JordanShoes** é o segundo de uma série de desafios propostos na [Comunidade Codelândia](https://discord.gg/QevDJqCzaY) e seguiu as especificações da seguinte UI: <br>
