@@ -8,4 +8,16 @@ const cards = [
         category: 'Tênis Air Jordan',
         price: 1199.99
     },
+    {
+        imageSrc: '/assets/img/jordan-tropical.png',
+        name: 'Air Jordan 1 High Zoom CMFT Tropical Twist',
+        category: 'Tênis Air Jordan',
+        price: 1049.00
+    },
 ]
+
+cards.map(card => {
+    const CARD_CLONE = FIRST_CARD.cloneNode(true);
+    CARD_CLONE.querySelector(".card img").src = card.imageSrc;
+    CARD_CLONE.querySelector(".card-info h4").innerHTML = card.name;
+});
